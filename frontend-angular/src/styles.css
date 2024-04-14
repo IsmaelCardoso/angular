@@ -15,3 +15,26 @@ body {
 .v-middle {
   vertical-align: middle;
 }
+
+.snackbar-success {
+  background: #28a745;
+  color: #fff;
+  --mdc-snackbar-container-color: var(--success-color);
+
+  .mat-simple-snackbar-action {
+    background: #28a745;
+    color: #fff;
+  }
+}
+
+.snackbar-error {
+  background: red;
+  color: #fff;
+  --mdc-snackbar-container-color: var(--error-color);
+
+  .mat-simple-snackbar-action {
+    background: red;
+    color: #fff;
+  }
+}
+
