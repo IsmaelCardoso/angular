@@ -9,7 +9,7 @@ body {
   font-family: Roboto, "Helvetica Neue", sans-serif;
 }
 .red {
-  color: rgb(277, 94, 107);
+  color: #E3436A;
 }
 
 .v-middle {
@@ -17,12 +17,12 @@ body {
 }
 
 .snackbar-success {
-  background: #28a745;
+  background: #2d7121;
   color: #fff;
   --mdc-snackbar-container-color: var(--success-color);
 
   .mat-simple-snackbar-action {
-    background: #28a745;
+    background: #2d7121;
     color: #fff;
   }
 }
